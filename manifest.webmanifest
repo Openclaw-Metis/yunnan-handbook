@@ -1,0 +1,25 @@
+{
+  "name": "彩雲之南・雲南八日旅遊手冊",
+  "short_name": "雲南八日",
+  "description": "2026/11/21–11/28 昆明、大理、麗江、香格里拉八日行旅手冊，可離線使用。",
+  "lang": "zh-Hant-TW",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F3E7CC",
+  "theme_color": "#F3E7CC",
+  "categories": ["travel"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "今日行程", "url": "./#today", "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "交通", "url": "./#transit", "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "行李清單", "url": "./#pack", "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
