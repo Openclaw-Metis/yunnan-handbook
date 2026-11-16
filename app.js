@@ -307,7 +307,7 @@
       </article>`;
     const go = T.flights.filter(f => f.date === T.days[0].date), back = T.flights.filter(f => f.date !== T.days[0].date);
     $('#v-transit').innerHTML = `
-      <header class="page-h" style="--c:#A7BADF"><span class="bar"></span><div><h1 class="serif">交通</h1><p>四段航班、兩段鐵路、兩次浦東轉機。</p></div></header>
+      <header class="page-h" style="--c:#A7BADF"><span class="bar"></span><div><h1 class="serif">交通</h1><p>四段航班、兩段鐵路，浦東與香港各轉機一次。</p></div></header>
       <div class="sect-h"><h2 class="serif">去程</h2><span class="mono">11.21 sat</span></div>
       ${go.map(flight).join('')}${xfer(T.transfers[0])}
       <div class="sect-h"><h2 class="serif">省內鐵路</h2><span class="mono">rail</span></div>
